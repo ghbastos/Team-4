@@ -1,0 +1,42 @@
+
+#navigationMenu{
+	font-family: 'Cousine', monospace;
+	float: right;
+	padding-right: 120px;
+	text-align: center;
+
+}
+#navcontainer{
+	height:10px;
+}
+.navbar-header {
+	padding-left: 50px;
+	position: absolute;
+	margin:0px;
+}
+
+.nav {
+	float: right;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin:0 auto;
+	
+}
+#list{
+	font-size: 25px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+
+
+}
+.vr{
+	color: white;
+	font-size: 80px;
+	padding-right: 0px;
+
+}
+
