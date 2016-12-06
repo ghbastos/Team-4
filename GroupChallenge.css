@@ -1,3 +1,5 @@
+font-family: Helvetica, Geneva, sans-serif;
+
 .multi-item-carousel{
   .carousel-inner{
     > .item{
@@ -66,3 +68,19 @@ h1{
   margin-bottom: 2em;
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
 }
+
+
+h2
+{
+	font-size: 30pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding: 20px;
+}
+
+.item_img
+{
+	padding-top: 40px;
+}
+
+
