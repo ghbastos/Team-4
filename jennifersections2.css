@@ -1,0 +1,157 @@
+/*GENERAL*/
+body{
+	font-family: 'Copse', serif;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+
+.row{
+	margin:0;
+	padding:0;
+}
+
+.col-xs-12{
+	padding:0;
+}
+
+a{
+	color:#9C9C9C;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#DB95D5;
+}
+
+ul{
+	display:block;
+	overflow:hidden;
+}
+
+ul li{
+	margin-bottom:10px;
+}
+
+/*BESTSELLER SECTION*/
+
+#bestsellers img{
+	width:100%;
+	display: block	
+}
+
+.shopmore{
+	border:2px solid black;
+	width:30%;
+	text-align:center;
+	margin:auto;
+}
+
+.shopmore:hover{
+	border:2px solid #DB95D5;
+}
+
+/*INSTAGRAM SECTION*/
+
+
+#instagramcontent{
+	position:relative;
+
+}
+#instagramcontent img{
+	width:100%;
+	display: block;
+	z-index:1;	
+}
+
+#instagramcontent li{
+	margin:0;
+	padding:0;
+}
+
+#instagramcontent h2{
+	text-align: center;
+}
+
+#instagramcontent p{
+	text-align: center;
+}
+
+.insta1b, .insta2b, .insta3b, .insta4b{
+	position:absolute;
+	width:100%;
+	background-color: rgba(255, 138, 161, 0.5);
+	height:100%;
+	
+
+}
+
+.insta1b p, .insta2b p, .insta3b p, .insta4b p{
+	color:white;
+	text-align: center;
+	margin-top:40%;
+
+}
+
+
+
+/*ABOUT US*/
+
+.aboutus{
+	margin:50px 0;
+	height:250px;
+	width:100%;
+	background:pink;
+}
+
+
+/*FOOTER*/
+
+#footer{
+	background:black;
+	height:250px;
+	padding:0;
+	margin-top:90px;
+}
+
+
+.email{
+	color:white;
+	padding:20px 0 0 90px;
+	display:inline-block;
+}
+.email a{
+	
+}
+
+.socialmedia{
+	color:white;
+	font-size:26px;
+	display:inline-block;
+	float:right;
+	padding:20px 90px 0 0;
+
+}
+
+.footerlist{
+	margin:50px 0 0 60px;
+}
+.footerlist1, .footerlist2, .footerlist3{
+	display:inline-block;
+	margin:10px 30px;
+}
+
+
+.copyright, .privacy{
+	display:inline-block;	
+}
+
+.copyright{
+	margin:0 0 0 50px;
+}
+
+.privacy{
+	float:right;
+	margin:0 50px 0 0;
+}
